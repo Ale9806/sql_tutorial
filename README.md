@@ -3,11 +3,16 @@ Structured Query Language (SQL) is the standard language to communicate with  re
 ## Tables 
 A relational database system contains one or more objects called tables. The data or information for the database are stored in these tables. Tables are uniquely identified by their names and are comprised of columns and rows. Columns contain the column name, data type, and any other attributes for the column. Rows contain the records or data for the columns.
 
-## Commands
+##  Basic Commands
 It is a good practice to run sql commands in upper case. Though sql is not case sensitive 
 |Commnad | description |
 | -- | --|
 | **CREATE TABLE** "name" (variables) | Creates a new table, if a table with the same name already exists this will generate an error|
 | **CREATE TABLE IF NOT EXISTS** "name"(variables) | This will only create table if it does not exist (Use this instead of CREATE TABLE) |
+| **DROP TABLE** "name" | Deletes a table |
+| **INSERT INTO** "name" (varaibles) | Inserts a new row to a table |
+
 
 *** For more information on variables check **SQ_VARIABLES.md**
+
+## Querys
