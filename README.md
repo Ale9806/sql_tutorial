@@ -10,7 +10,7 @@ It is a good practice to run sql commands in upper case. Though sql is not case 
 | **CREATE TABLE** "name" (variables) | Creates a new table, if a table with the same name already exists this will generate an error|
 | **CREATE TABLE IF NOT EXISTS** "name"(variables) | This will only create table if it does not exist (Use this instead of CREATE TABLE) |
 | **DROP TABLE** "name" | Deletes a table |
-| **INSERT INTO** "name" (varaibles) | Inserts a new row to a table |
+| **INSERT INTO** "name" (varaibles) **VALUES** ("variables")| Inserts a new row to a table |
 | **UPDATE** "name" **SET** varaibale1 = new_variable | Update (change) a variable form the TABLE |
 
 
