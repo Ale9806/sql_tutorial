@@ -11,8 +11,14 @@ It is a good practice to run sql commands in upper case. Though sql is not case 
 | **CREATE TABLE IF NOT EXISTS** "name"(variables) | This will only create table if it does not exist (Use this instead of CREATE TABLE) |
 | **DROP TABLE** "name" | Deletes a table |
 | **INSERT INTO** "name" (varaibles) | Inserts a new row to a table |
+| **UPDATE** "name" **SET** varaibale1 = new_variable | Update (change) a variable form the TABLE |
 
 
 *** For more information on variables check **SQ_VARIABLES.md**
 
-## Querys
+## Queries
+|Commnad | description |
+| -- | --|
+| **SELECT** * **FROM** "name" | Selects all the information from a table |
+| **SELECT** * **FROM** "name" **LIMIT** n| Returns only n elements from the table |
+| **SELECT** * **FROM** "name" **WHERE** id =1 | Select a specific row WHERE a key matches |
