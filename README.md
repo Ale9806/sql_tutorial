@@ -7,5 +7,7 @@ A relational database system contains one or more objects called tables. The dat
 It is a good practice to run sql commands in upper case. Though sql is not case sensitive 
 |Commnad | description |
 | -- | --|
-| CREATE TABLE "name" (variables) | Creates a new table, if a table with the same name already exists this will generate an error|
-| CREATE TABLE IF NOT EXISTS "name"(variables) | This will only create table if it does not exist (Use this instead of CREATE TABLE) |
+| **CREATE TABLE** "name" (variables) | Creates a new table, if a table with the same name already exists this will generate an error|
+| **CREATE TABLE IF NOT EXISTS** "name"(variables) | This will only create table if it does not exist (Use this instead of CREATE TABLE) |
+
+*** For more information on variables check **SQ_VARIABLES.md**
